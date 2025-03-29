@@ -3,7 +3,7 @@ import productSlice from './slices/productSlice'
 
 const store = configureStore({
   reducer: {
-    videos: productSlice
+    videos: productSlice,
   }
 })
 export type RootState = ReturnType<typeof store.getState>
